@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+nav{
+    background-image: url(/img/walpp.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+    background-position:top;
+}
+
+table, th, td{
+    /*
+    <thead> başlık içeriğini gruplamak için kullanılır.
+    <tbody> tablo gövde içeriğini gruplamak için kullanılır.
+    <tfoot> tablo alt bilgi içeriğinigruplamak için kullanılır.
+    */
+
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    /*background-color: yellow;*/
+    border-radius: 10px;    /* Table CSS seçeneğinden çıkarıldığında çevre kenarlık ortadan kalkar ve radius tam olur. */
+    border-style: dotted;  /* Kenarlık görünümleri ayarlanır; noktalı, şeffaf, kalın vb.... */
+    border-color: #ff0000;
+    /* table style width ile tablo genişilikleri 0%...100% arasında ayarlanır */
+    /* tr (satırlarda)'lerde height 1px ... istenilen kadar verilir. (1px=default) */
+    text-align: center;
+    padding: 5px;          /* Hücre kenarları ile hücre içeriği arasındaki boşluktur. */
+    border-spacing: 5px;   /* Hücreler arası boşluk */
+    padding-top: 20px;     /* Hücre içi genişlik ölçülendirme */
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*
+
+    Yatay Bölücüler: tr {border-bottom: 1px solid #ddd;}
+    Gezilebilir Tablo: tr: hover {background-color: #D6EEEE;}
+    Dikey ve Yatay Zebra Çizgilerini Birleştirilmesi:
+        tr:nth-child(even) { background-color: rgba(150, 212, 212, 0.4);}
+        th:nth-child(even), td:nth-child(even) {background-color: rgba(150, 212, 212, 0.4);}
+    HTML Tablosu - Dikey Zebra Çizgileri: td:nth-child(even), th:nth-child(even) {background-color: #D6EEEE;}
+    Zebra Çizgileri: tr:nth-child(even) { background-color: #D60EEE;}
+
+    */
+    
+}
+tr:nth-child(even) { background-color: #D60EEE;}
+
+iframe{
+    height: 100%;
+    width: 100%;
+
+}
