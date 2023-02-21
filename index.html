@@ -79,7 +79,7 @@
     <hr>
     <p style="text-align: center;"><b>Listelerle çalışmak...</b></p>
     <ul>
-        <p>Sırasız Liste İle Çalışmak: ul>p{Sıralı Liste İle Çalışmak}+li*3</p>
+        <p>Sırasız Liste İle Çalışmak: ul>p{Sırasız Liste İle Çalışmak}+li*3</p>
         <li>Liste Elemanı 1</li>
         <li>Liste Elemanı 2</li>
         <li>Liste Elemanı 3</li>
@@ -205,7 +205,7 @@
     <p style="text-align: center;"><b>"iframe" iç içe çerçevelerle Çalışmak... Çerçeve içinde web linki eklemek</b></p>
 
     <iframe src="" name="iframe_a" title="Iframe Example"></iframe>
-    <div style="text-align: center;"><a href="https://www.memurlar.net" target="iframe_a">Memurlar.net</a></div>
+    <div style="text-align: center;"><a href="https://www.meb.gov.tr/" target="iframe_a">MEB Linki</a></div>
 
     <hr>
     <p style="text-align: center;"><b>HTML JS Çalışmak...</b></p>
@@ -237,11 +237,11 @@
     <button type="button" onclick="myFunction2()">Tıkla ve Kelime Değişsin</button> <br>
     <p id="demo2">Butona tıklarsan kelime değişir...</p>
 
-    <button type="button" onclick="document.getElementById('demo4').innerHTML=Date()">Click me to display Date and Time.</button>
+    <button type="button" onclick="document.getElementById('demo4').innerHTML=Date()">Güncel Zamanı Göstermek için Tıkla...</button>
     <p id="demo4"></p> <br>
     
     <button type="button" onclick="myFunction()">Click Me!</button> <br>
-    <p id="demo">JavaScript can change the style of an HTML element.</p>
+    <p id="demo">JavaScript ile Yazı özellikleri değişiyor.</p>
 
     <img style="display: block; margin: auto;" id="myImage" src="img/pic_bulboff.gif" width="100" height="180"> <br>
     <div style="text-align: center;">
@@ -283,7 +283,7 @@
 
     Summary : Details için Kısa bir başlık ismi tanımlar. Örneğin; <br><br>
     <details style="margin: 5px;">
-        <summary>Ek Bilgi için Buraya Tıklayınız....</summary>
+        <summary style="color:red">Ek Bilgi için Buraya Tıklayınız....</summary>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, in!
     </details> <br>
 
@@ -366,17 +366,17 @@
         <fieldset>
             <legend>Zaman Formatları ile Çalışmak</legend> <br>
             <label for="datemax">Tarih (Max: 31.12.2025'e kadar) : </label>
-            <input style="margin-left: 16px;" type="datemax" name="datemax" id="datemax" max="2025-12-31"> <br> <br>
+            <input style="margin-left: 16px;" type="date" name="datemax" id="datemax" max="2025-12-31"> <br> <br>
             <label for="datemin">Tarih (Min: 31.12.2000 ve Öncesi) : </label>
-            <input type="datemin" name="datemin" id="datemin" max="2000-12-31"> <br> <br>
+            <input type="date" name="datemin" id="datemin" max="2000-12-31"> <br> <br>
             <label for="date-time">Tarih ve Saat Giriniz : </label>
             <input style="margin-left: 90px;" type="datetime-local" name="date-time" id="date-time"> <br> <br>
             <label for="time">Zamanı Giriniz : </label>
             <input style="margin-left: 122px;" type="time" id="time" name="time"> <br> <br>
             <label for="ay_yil">Ay ve Yıl Giriniz :</label>
-            <input style="margin-left: 107px;" type="ay_yil" id="ay_yil" name="ay_yil"> <br> <br>
+            <input style="margin-left: 107px;" type="month" id="ay_yil" name="ay_yil"> <br> <br>
             <label for="hafta_ay">Hafta ve Ay Seçiniz :</label>
-            <input style="margin-left: 90px;" type="hafta_ay" id="hafta_ay" name="hafta_ay"> <br> <br>
+            <input style="margin-left: 90px;" type="week" id="hafta_ay" name="hafta_ay"> <br> <br>
             <input type="submit" value="submit">
         </fieldset>
     </form> <br>
