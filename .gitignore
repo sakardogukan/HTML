@@ -16,11 +16,11 @@ https://github.com/github/gitignore/tree/main/Global sayfasından IDE’ler içi
 # Built Visual Studio Code Extensions
 *.vsix
 # images
-img/
-*.jpeg
-*.jpg
-*.gif
-*.png
+# img/
+# *.jpeg
+# *.jpg
+# *.gif
+# *.png
 # videos
 *.mp4
 # log
